@@ -1,8 +1,6 @@
-let menuIcon = document.querySelector('#nav-right-icon');
+let menuIcon = document.querySelector("#nav-right-icon");
 
-let menu = document.querySelector('#menu');
-
-
+let menu = document.querySelector("#menu");
 
 menuIcon.addEventListener("click", () => {
     if (menu.className === "hidden") {
